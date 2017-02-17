@@ -8,6 +8,7 @@ Created a class for each bar to identify and select when its corresponding x or 
 Used a old parchment paper image to cover the SVGs
 4) Bell: Best Fit Lines
 Used least squares to find the best fit. The best fit line equation is then overlaid on the SVGs
+(part 3 SVGs instead of part 5 svg).
 5) Whistle: Transitions
 Completed by using a select menu. The select menu onchange will change the dataset with transitions
 6) Whistle: Replication
