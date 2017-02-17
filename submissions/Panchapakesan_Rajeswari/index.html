@@ -502,6 +502,13 @@
                     .attr("width",w)
                     .attr("height",h);
 
+                svg.append("text")
+                    .attr("x",w/2)
+                    .attr("y",margin+10)
+                    .attr("text-anchor", "middle")
+                    .style("font-size","20px")
+                    .text("Anscombe_" + splitStr2[0]);
+
                 var xAxis = d3.svg.axis()
                     .scale(xScale)
                     .orient("bottom")
